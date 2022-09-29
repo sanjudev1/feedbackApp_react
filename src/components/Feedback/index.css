@@ -1,0 +1,37 @@
+/* Write your CSS code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ffc0bb;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  font-family: 'Roboto';
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.container {
+  background-color: white;
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+}
+.container1 {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ffc0bb;
+}
+.img {
+  width: 100px;
+  height: 100px;
+}
